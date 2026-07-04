@@ -1,0 +1,31 @@
+---
+article_id: 12947300131731
+title: "Show/Hide downloading status on your Player"
+source_url: https://support.optisigns.com/hc/en-us/articles/12947300131731-Show-Hide-downloading-status-on-your-Player
+updated_at: 2025-09-04T15:32:11Z
+content_hash: ac36729d2ff1fd9eb71481824acebb835c6fe2e083eec0caf5cbf9106414845f
+---
+
+With Android, Fire TV, Windows, Linux, and Raspberry Pi players, you can set to show/hide downloads.
+
+When the player is downloading video/images, it will show the download status like this:
+
+![Image from OptiSigns Help Center](https://support.optisigns.com/hc/article_attachments/12947175953555)
+
+Download status help you to know that change is being applied and how fast is your download speed.
+
+Sometimes you want to disable this to have a smoother experience for your viewers.
+
+You can do so by going to the Advanced section of Edit Screen and uncheck "Show Downloading Status".
+
+If you have many screens, can select multiple and apply this settings to all of them.
+
+![Image from OptiSigns Help Center](https://support.optisigns.com/hc/article_attachments/12947070612883)
+
+Or on the player, you can open Side Menu -> Advanced -> and uncheck Show Downloading Status.
+
+![Image from OptiSigns Help Center](https://support.optisigns.com/hc/article_attachments/12946929704467)
+
+That's it!
+
+If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at[support@optisigns.com](mailto:support@optisigns.com)
