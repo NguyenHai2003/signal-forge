@@ -1,0 +1,17 @@
+{
+  "store_name": "fileSearchStores/optibotkb-z4xpzxozvod0",
+  "store_display_name": "optibot-kb",
+  "model": "gemini-2.0-flash",
+  "last_upload": {
+    "total_files": 100,
+    "completed": 100,
+    "failed": 0,
+    "estimated_chunks": 176
+  },
+  "store_stats": {
+    "active_documents": 100,
+    "pending_documents": null,
+    "failed_documents": null,
+    "size_bytes": 664802
+  }
+}
