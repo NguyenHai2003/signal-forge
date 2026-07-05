@@ -44,7 +44,11 @@ def fetch_all_articles(min_articles=30, locale="en-us"):
     """
     articles = []
     url = BASE_URL
-    params = {"per_page": PER_PAGE}
+    params = {
+        "per_page": PER_PAGE,
+        "sort_by": "updated_at",
+        "sort_order": "desc"
+    }
 
     page_num = 1
     while url:
@@ -58,13 +62,16 @@ def fetch_all_articles(min_articles=30, locale="en-us"):
         page_num += 1
 
         # Stop early if we have enough data (can still fetch all if full crawl is wanted)
-        if len(articles) >= min_articles:
+        if min_articles is not None and len(articles) >= min_articles:
             break
 
         # safety: avoid infinite loop if API returns weird errors
         if page_num > 50:
             break
 
+    if min_articles is not None:
+        articles = articles[:min_articles]
+        
     print(f"[fetch] Total articles fetched: {len(articles)}")
     return articles
 
